@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonSignIn" type="id" />
+    <item name="buttonSignUp" type="id" />
+    <item name="SignUp" type="id" />
+    <item name="SignIn" type="id" />
+    <item name="myImageView" type="id" />
+    <item name="imageViewLogo" type="id" />
+    <item name="buttonsignin" type="id" />
+    <item name="signin" type="id" />
+    <item name="buttonsignup" type="id" />
+    <item name="signup" type="id" />
+    <item name="btnLogin" type="id" />
+    <item name="imageViewQR" type="id" />
+</resources>
