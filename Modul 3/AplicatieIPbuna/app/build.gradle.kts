@@ -1,3 +1,13 @@
+import org.apache.tools.ant.taskdefs.Java
+import org.gradle.internal.impldep.org.h2.mode.FunctionsMySQL
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+
 plugins {
     alias(libs.plugins.androidApplication)
     id("com.google.gms.google-services")
@@ -45,6 +55,10 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+    //implementation(":Mysql-Connector-Java-3.0.17-ga")
+    implementation(libs.mysql.connector.j)
+
+    //implementation (group: "mysql"; name: 'mysql-connector-java'; version: '8.0.28')
 
 
 }
