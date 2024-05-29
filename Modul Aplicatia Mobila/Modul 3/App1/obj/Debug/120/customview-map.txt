@@ -1,0 +1,36 @@
+Button;obj\Debug\120\res\layout\generareqr.xml
+Button;obj\Debug\120\res\layout\main.xml
+Button;obj\Debug\120\res\layout\meniu.xml
+Button;obj\Debug\120\res\layout\schimbareparola.xml
+Button;obj\Debug\120\res\layout\setari.xml
+Button;obj\Debug\120\res\layout\signup.xml
+EditText;obj\Debug\120\res\layout\main.xml
+EditText;obj\Debug\120\res\layout\schimbareparola.xml
+FrameLayout;C:\Users\Matei\Desktop\App1\Modul 3\App1\obj\Debug\120\lp\30\jl\res\layout\zxingscanneractivitylayout.xml
+FrameLayout;C:\Users\Matei\Desktop\App1\Modul 3\App1\obj\Debug\120\lp\30\jl\res\layout\zxingscannerfragmentlayout.xml
+FrameLayout;obj\Debug\120\res\layout\main.xml
+ImageView;obj\Debug\120\res\layout\detalii.xml
+ImageView;obj\Debug\120\res\layout\generareqr.xml
+ImageView;obj\Debug\120\res\layout\locuriparcare.xml
+ImageView;obj\Debug\120\res\layout\main.xml
+ImageView;obj\Debug\120\res\layout\meniu.xml
+ImageView;obj\Debug\120\res\layout\schimbareparola.xml
+ImageView;obj\Debug\120\res\layout\setari.xml
+ImageView;obj\Debug\120\res\layout\signup.xml
+LinearLayout;obj\Debug\120\res\layout\detalii.xml
+LinearLayout;obj\Debug\120\res\layout\main.xml
+LinearLayout;obj\Debug\120\res\layout\meniu.xml
+LinearLayout;obj\Debug\120\res\layout\schimbareparola.xml
+LinearLayout;obj\Debug\120\res\layout\setari.xml
+RelativeLayout;obj\Debug\120\res\layout\detalii.xml
+RelativeLayout;obj\Debug\120\res\layout\generareqr.xml
+RelativeLayout;obj\Debug\120\res\layout\locuriparcare.xml
+RelativeLayout;obj\Debug\120\res\layout\meniu.xml
+RelativeLayout;obj\Debug\120\res\layout\schimbareparola.xml
+RelativeLayout;obj\Debug\120\res\layout\setari.xml
+RelativeLayout;obj\Debug\120\res\layout\signup.xml
+resources;obj\Debug\120\res\values\strings.xml
+string;obj\Debug\120\res\values\strings.xml
+TextView;obj\Debug\120\res\layout\detalii.xml
+TextView;obj\Debug\120\res\layout\locuriparcare.xml
+TextView;obj\Debug\120\res\layout\main.xml

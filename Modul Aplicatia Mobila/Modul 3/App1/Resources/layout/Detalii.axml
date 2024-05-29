@@ -1,0 +1,122 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background-ul cu efect de zoom -->
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background2"
+        android:scaleType="centerCrop" /> <!-- sau alt scaleType, după preferință -->
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="44.0dp"
+        android:layout_height="55.5dp"
+        android:src="@drawable/arrow_white"
+        android:layout_margin="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <!-- Restul conținutului -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@android:color/transparent"
+        android:paddingStart="20dp"
+        android:paddingTop="120dp">
+
+        <!-- Eticheta pentru Nume -->
+        <TextView
+            android:id="@+id/txtNume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nume:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp" />
+
+        <!-- Eticheta pentru Prenume -->
+        <TextView
+            android:id="@+id/txtPrenume"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prenume:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp" />
+
+        <!-- Eticheta pentru Numar Inmatriculare -->
+        <TextView
+            android:id="@+id/txtNumarInmatriculare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numar Inmatriculare:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp" />
+
+        <!-- Eticheta pentru Departament -->
+        <TextView
+            android:id="@+id/txtDepartament"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Departament:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp" />
+
+        <!-- Eticheta pentru Rol -->
+        <TextView
+            android:id="@+id/txtRol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rol:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp" />
+
+        <!-- Eticheta pentru Birou -->
+        <TextView
+            android:id="@+id/txtBirou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Birou:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp" />
+
+        <!-- Eticheta pentru Etaj -->
+        <TextView
+            android:id="@+id/txtEtaj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Etaj:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp" />
+
+        <!-- Eticheta pentru Pozitie Birou -->
+        <TextView
+            android:id="@+id/txtPozitieBirou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pozitie Birou:"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background-ul cu efect de zoom -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background2"
+        android:scaleType="centerCrop" /> <!-- Adăugarea scaleType pentru a face zoom la imagine -->
+
+    <!-- Butonul de întoarcere -->
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="44.0dp"
+        android:layout_height="55.5dp"
+        android:src="@drawable/arrow_white"
+        android:layout_margin="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:clickable="true"
+        android:focusable="true" />
+      
+    <!-- ImageView pentru poza de profil -->
+    
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"> <!-- Așezarea butoanelor în mijlocul ecranului -->
+
+        <!-- Butonul pentru Schimbare poza de profil -->
+        <Button
+            android:id="@+id/btnSchimbarePozaProfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schimbare poza de profil" />
+
+        <!-- Butonul pentru Schimbare parola -->
+        <Button
+            android:id="@+id/btnSchimbareParola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schimbare parola" />
+
+        <!-- Butonul pentru Delogare -->
+        <Button
+            android:id="@+id/btnDelogare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delogare" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

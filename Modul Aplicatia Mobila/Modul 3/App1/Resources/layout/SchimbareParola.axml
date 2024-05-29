@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Imaginea de fundal -->
+    <ImageView
+        android:id="@+id/ivBackground"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background3"
+        android:scaleType="centerCrop" />
+
+    <!-- Container pentru restul elementelor -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- Butonul de revenire -->
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="44.0dp"
+            android:layout_height="55.5dp"
+            android:src="@drawable/arrow_white"
+            android:layout_margin="16dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <!-- Câmpul pentru introducerea parolei noi -->
+        <EditText
+            android:id="@+id/editTextParolaNoua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Parola Noua"
+            android:inputType="textPassword"
+            android:layout_marginTop="100dp"
+            />
+
+        <!-- Butonul pentru schimbarea parolei -->
+        <Button
+            android:id="@+id/btnSchimbaParola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Schimbă Parola"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="110dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
