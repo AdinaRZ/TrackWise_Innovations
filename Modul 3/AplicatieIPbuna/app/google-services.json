@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "310607572782",
+    "project_id": "proiect-ip-35a26",
+    "storage_bucket": "proiect-ip-35a26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310607572782:android:a523ce3cc65d2433db14bf",
+        "android_client_info": {
+          "package_name": "com.aplicatie"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxBGUaMpOvmoYAXsCokYPjKH0pijXRvcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310607572782:android:6881cbd1dcbc8b4fdb14bf",
+        "android_client_info": {
+          "package_name": "com.example.aplicatieipbuna"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxBGUaMpOvmoYAXsCokYPjKH0pijXRvcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
